@@ -7,9 +7,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Bitcoin Ticker',
       theme: ThemeData.dark().copyWith(
-          primaryColor: Colors.lightBlue,
-          scaffoldBackgroundColor: Colors.white),
+          primaryColor: Colors.deepOrange[400],
+          scaffoldBackgroundColor: Colors.orange[100]),
       home: PriceScreen(),
     );
   }
